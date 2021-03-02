@@ -1,10 +1,5 @@
 def howLong(w):
-   
-    for i in range(0, len(w)):
-        if w[i] == "1":
 
-            return True
+    return len(w)
 
-    return False 
-
-print (howLong("star wars"))
+print (howLong("jelly"))
